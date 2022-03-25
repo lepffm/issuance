@@ -41,7 +41,7 @@
               const { url, ...options } = endpoint("GET /repos/:owner/:repo/issues", {
                 owner: "lepffm",
                 repo: "issuance",
-                auth: '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'
+                auth: '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'
               });
               const res = await fetch(url, options);
               setIssues(await res.json());
