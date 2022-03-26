@@ -49,6 +49,9 @@ pre>code {
 
 .post {
   margin-bottom: 40px;
+  background-color: #f6f8fa
+  border: 1px solid #24292f
+  border-radius: 6px;
 }
 
 .post>.title {
