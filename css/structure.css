@@ -49,9 +49,6 @@ pre>code {
 
 .post {
   margin-bottom: 40px;
-  background-color: #f6f8fa;
-  border: 1px solid #24292f;
-  border-radius: 6px;
 }
 
 .post>.title {
@@ -76,6 +73,9 @@ pre>code {
   padding-top: 10px;
   border-top: 1px solid #fafafa;
   border-bottom: 1px solid #fafafa;
+  background-color: #f6f8fa;
+  border: 1px solid #24292f;
+  border-radius: 6px;
 }
 .post>.body>*:last-child {
   margin-bottom: 1rem;
