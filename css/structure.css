@@ -71,6 +71,7 @@ pre>code {
 .post>.body {
   margin-bottom: 20px;
   padding-top: 10px;
+  padding-left: 10px;
   border-top: 1px solid #fafafa;
   border-bottom: 1px solid #fafafa;
   background-color: #f6f8fa;
