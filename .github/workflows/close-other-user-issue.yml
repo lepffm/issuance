@@ -1,4 +1,4 @@
-name: Close utterances issue
+name: Force close unauthorized writer's issue
 on:
   issues:
     types: [opened]
@@ -12,4 +12,5 @@ jobs:
         name: Close Issue
         uses: peter-evans/close-issue@v3.0.1
         with:
-          repository: lepffm/issuance
+          close-reason: not_planned
+          comment: only the owner can post. 
