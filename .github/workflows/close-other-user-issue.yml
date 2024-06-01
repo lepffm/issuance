@@ -8,7 +8,7 @@ jobs:
     permissions:
       issues: write
     steps:
-      - if: github.event.issue.user.login != 'lepffm'
+      - if: github.event.issue.user.login != github.repository_owner
         name: Close Issue
         uses: peter-evans/close-issue@v3.0.1
         with:
