@@ -5,6 +5,8 @@ on:
 jobs:
   close-issue:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - if: github.event.issue.user.login != 'lepffm'
         name: Close Issue
