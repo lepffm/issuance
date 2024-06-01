@@ -11,3 +11,5 @@ jobs:
       - if: github.event.issue.user.login != 'lepffm'
         name: Close Issue
         uses: peter-evans/close-issue@v3.0.1
+        with:
+          repository: lepffm/issuance
