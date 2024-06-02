@@ -1,7 +1,7 @@
 # Personal Blog with GitHub Issues.
 
 ### Blog by Issues
-[Issues](https://github.com/lepffm/issuance/issue)
+[Issues](https://github.com/lepffm/issuance/issues)
 
 ### Category by Milestone
 - [Culture](https://github.com/lepffm/issuance/milestone/1)
@@ -10,5 +10,5 @@
 - [Others](https://github.com/lepffm/issuance/milestone/3)
 
 ### RSS
- [RSS Link](http://openrss.org/github.com/lepffm/issuance/issue)
+ [RSS Link](http://openrss.org/github.com/lepffm/issuance/issues)
  
