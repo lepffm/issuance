@@ -11,10 +11,10 @@ jobs:
       - if: github.event.issue.user.login != github.repository_owner
         name: Close Issue
         #run: gh issue close --comment "Auto-closing issue" "1"
-        run: gh issue delete "$NUMBER" --yes
+        run: gh issue delete  ${{ github.event.issue.number }} --yes
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NUMBER: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ github.token }}
+          #NUMBER: ${{ github.event.issue.number }}
 #        uses: peter-evans/close-issue@v3.0.1
 #        with:
 #          close-reason: not_planned
