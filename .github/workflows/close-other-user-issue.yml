@@ -11,14 +11,14 @@ jobs:
       - if: github.event.issue.user.login != github.repository_owner
         name: Close Issue
         #run: gh issue close --comment "Auto-closing issue" "1"
-        run: gh issue delete  ${{ github.event.issue.number }} --yes
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OWNER: ${{ github.repository_owner }}
-          REPO: ${{ github.event.repository.name }}
+        #run: gh issue delete  ${{ github.event.issue.number }} --yes
+        #env:
+        #  GH_TOKEN: ${{ github.token }}
+        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #  OWNER: ${{ github.repository_owner }}
+        #  REPO: ${{ github.event.repository.name }}
           #NUMBER: ${{ github.event.issue.number }}
-#        uses: peter-evans/close-issue@v3.0.1
-#        with:
-#          close-reason: not_planned
-#          comment: only the owner can post. 
+        uses: peter-evans/close-issue@v3.0.1
+        with:
+          close-reason: not_planned
+          comment: only the owner can post. 
