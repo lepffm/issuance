@@ -14,7 +14,7 @@ jobs:
         env:
           #GH_TOKEN: ${{ github.token }}
           GH_TOKEN: ${{ secrets.ISSUE_CLOSE_TOKEN }} # admin role for delet
-          GH_REPO: ${{ github.event.repository.name }}
+          GH_REPO:  ${{ github.repository }}
           NUMBER: ${{ github.event.issue.number }}
         #uses: peter-evans/close-issue@v3.0.1
         #with:
