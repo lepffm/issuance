@@ -79,6 +79,9 @@ pre>code {
 .post>.body>*:last-child {
   margin-bottom: 1rem;
 }
+.post>.img {
+  max-width: 100%;
+}
 
 .comments {}
 .comments *:first-child { margin-top: 0 !important; }
