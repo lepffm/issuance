@@ -64,11 +64,11 @@
                   id={${number}}
                   key={${number}}
                 >
-                <li><a href="https://github.com/${owner}/${repoName}/milestone/${number}">${title}</a> ${description}</li>
+                <li><a href="https://github.com/${owner}/${repoName}/milestone/${number}">${title} - ${description}</a></li>
                 </ul>
           `)}
 </div>
-<hr/><h/r>
+<hr/><br>
         `;
       }
       const Footer = (props) => {
@@ -158,6 +158,7 @@
                   />
                 </div>
                 <hr/>
+                <br>
               `)}
           </div>
         `
