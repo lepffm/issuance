@@ -1,10 +1,10 @@
 ---
 name: Movie
 about: movie template
-title: "[Movie] {title} (engtitle)"
+title: "🎥[Movie] {title} (engtitle)"
 labels: Movie
 assignees: ''
-milestone: CULTURE
+milestones: CULTURE 
 
 ---
 
