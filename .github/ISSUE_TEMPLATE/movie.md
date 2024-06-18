@@ -2,8 +2,9 @@
 name: Movie
 about: movie template
 title: "[Movie] {title} (engtitle)"
-labels: Culture, Movie
+labels: Movie
 assignees: ''
+milestone: CULTURE
 
 ---
 
